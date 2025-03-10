@@ -1,6 +1,4 @@
 /*
- * Name: Harshit Rangu
- * Section Number: 2336-002
  * 
  * Analysis: 
  * 		It's required to write code to make an Ultimate Tic-Tac-Toe game. In each of the 9 squares of the original 
@@ -11,23 +9,10 @@
  * 		the player has the option of going to any other board and position (provided it is available). The rules for 
  * 		winning a game of Tic-Tac-Toe on any of the Tic-Tac-Toe boards remain the same. One of the players in this project is human, 
  * 		while the other is artificial intelligence (the computer).
- * 
- * Design:
- * 		I attempted to improve upon the code used in various in-class assignments for the class. To make the Ultimate Tic-Tac-Toe game, 
- * 		I generated multiple methods all within one class. I created a 9 by 9 2 dimensional array in a way that each row of the 2 dimensional  	
- * 		array was each individual board of the game. I then used an algorithm inside a print board method to print each line of array 
- * 		into a 3 by 3 box(tic Tac Toe board). I created all the necessary functions in one class as I didn't need separate classes one 
- * 		for each board due to the algorithm that displays all 9 boards for me. the game starts and ends in the main function using a do while loop. 
- * 		Players are allowed to make moves accordingly and play to win. The board is printed after each move to simplify the process for the player, 
- * 		and possible moves on a given board are also listed. If a game is won on a board, it is also displayed, and the overall game winner 
- * 		is displayed once all of the games have been completed.  After each move, the board is checked to see if it is full, and therefore 
- * 		if the game is ended. I attempted to keep the output as close to the sample output as possible.
  * Test:
  * 		The program only accepts valid inputs. If the user submits an invalid value as input, for example if the board is full or if the move 
  * 		is impossible to complete, the user will be prompted to enter it again until a number in the valid spot is entered. 
  * */
-
-package cs2336_TicTacToe;
 
 import java.util.Random;
 import java.util.Scanner;
